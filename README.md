@@ -20,6 +20,10 @@ h5py==2.7.1
 
 `python source/inception/download.py --outfile=datasets/inception_model`
 
+### Train the model
+
+'python train.py'
+
 ### Spectral Collapse VS Mode Collapse
 
 <img src="https://github.com/max-liu-112/SRGANs/blob/master/Images/fig1.png">
