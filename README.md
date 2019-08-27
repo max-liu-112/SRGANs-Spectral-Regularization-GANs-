@@ -22,7 +22,7 @@ h5py==2.7.1
 
 ### Train the model
 
-'python train.py'
+`python train.py`
 
 ### Spectral Collapse VS Mode Collapse
 
