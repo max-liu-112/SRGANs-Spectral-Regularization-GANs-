@@ -22,3 +22,9 @@ h5py==2.7.1
 ### Spectral Collapse VS Mode Collapse
 
 <img src="https://github.com/max-liu-112/SRGANs/blob/master/Images/fig1.png">
+
+<img src="https://github.com/max-liu-112/SRGANs/blob/master/Images/fig2.png">
+
+<img src="https://github.com/max-liu-112/SRGANs/blob/master/Images/fig3.png">
+
+<img src="https://github.com/max-liu-112/SRGANs/blob/master/Images/fig4.png">
