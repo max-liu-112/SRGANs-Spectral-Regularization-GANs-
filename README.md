@@ -1,4 +1,4 @@
-# SRGANs
+# SRGANs : Spectral Regularization for Combating Mode Collapse in GANs
 ### References
 -Kanglin Liu, Wenming Tang, Fei Zhou, Guoping Qiu. *Spectral Regularization for Combating Mode Collapse in GANs*. ICCV2019. [SRGANs]
 
