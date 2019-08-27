@@ -1,7 +1,8 @@
 # SRGANs
-## Implementation of Spectral Regularization GANs
 ### References
 -Kanglin Liu, Wenming Tang, Fei Zhou, Guoping Qiu. *Spectral Regularization for Combating Mode Collapse in GANs*. ICCV2019. [SRGANs]
+
+* The setup and example code in this README are for training SRGANs on 4 GPUs.
 ## Setup
 
 ### Install required python libraries:
