@@ -5,9 +5,9 @@ from source.links.sn_linear import SNLinear
 from dis_models.resblocks import Block, OptimizedBlock
 
 
-class SNResNetProjectionDiscriminator(chainer.Chain):
+class SRDiscriminator(chainer.Chain):
     def __init__(self, ch=128, n_classes=0, activation=F.relu):
-        super(SNResNetProjectionDiscriminator, self).__init__()
+        super(SRDiscriminator, self).__init__()
         self.activation = activation
         with self.init_scope():
             self.block1 = OptimizedBlock(3, ch)
