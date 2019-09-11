@@ -50,7 +50,7 @@ def make_optimizer(model, alpha=0.0002, beta1=0., beta2=0.9):
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument('--config_path', type=str, default='configs/sn_cifar10_unconditional.yml', help='path to config file')
+    parser.add_argument('--config_path', type=str, default='configs/sr.yml', help='path to config file')
     parser.add_argument('--gpu', type=int, default=0, help='index of gpu to be used')
     parser.add_argument('--data_dir', type=str, default='./data/imagenet')
     parser.add_argument('--results_dir', type=str, default='./results',
