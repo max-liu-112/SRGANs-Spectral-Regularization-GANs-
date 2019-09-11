@@ -10,7 +10,7 @@ evaluation_interval: 1000
 
 models:
   generator:
-    fn: gen_models/resnet_32.py
+    fn: gen_models/gen.py
     name: ResNetGenerator
     args:
       dim_z: 128
@@ -20,8 +20,8 @@ models:
 
 
   discriminator:
-      fn: dis_models/snresnet_32.py
-      name: SNResNetProjectionDiscriminator
+      fn: dis_models/dis.py
+      name: SRDiscriminator
       args:
         ch: 128
         n_classes: 0
