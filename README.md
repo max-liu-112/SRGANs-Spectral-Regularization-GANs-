@@ -2,7 +2,10 @@
 ### References
 -Kanglin Liu, Wenming Tang, Fei Zhou, Guoping Qiu. *Spectral Regularization for Combating Mode Collapse in GANs*. ICCV2019. [SRGANs]
 
+* The implementation is Based on SNGANs https://github.com/pfnet-research/sngan_projection, 
+
 * The setup and example code in this README are for training SRGANs on 4 GPUs.
+
 ## Setup
 
 ### Install required python libraries:
