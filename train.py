@@ -52,7 +52,6 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('--config_path', type=str, default='configs/sr.yml', help='path to config file')
     parser.add_argument('--gpu', type=int, default=0, help='index of gpu to be used')
-    parser.add_argument('--data_dir', type=str, default='./data/imagenet')
     parser.add_argument('--results_dir', type=str, default='./results',
                         help='directory to save the results to')
     parser.add_argument('--inception_model_path', type=str, default='./datasets/inception_model/inception_score.model',
@@ -104,9 +103,6 @@ def main():
         models['main']['dis'], alpha=config.adam['alpha'], beta1=config.adam['beta1'], beta2=config.adam['beta2'])
     opts = {"opt_gen": opt_gen, "opt_dis": opt_dis}
     # Dataset
-    if config['dataset'][
-        'dataset_name'] != 'CIFAR10Dataset':  # Cifar10 dataset handler does not take "root" as argument.
-        config['dataset']['args']['root'] = args.data_dir
     dataset = yaml_utils.load_dataset(config)
     # Iterator
     iterator = chainer.iterators.MultiprocessIterator(
